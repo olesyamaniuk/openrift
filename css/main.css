@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comme:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 *,
 *::before,
@@ -11,8 +11,9 @@ html {
 
 body {
   margin: 0;
-  background: #ffbb5b;
-  color: #000000;
+  background: #97c5f0;
+
+  color: #1f2a30;
 }
 
 h1,
@@ -258,35 +259,39 @@ a {
 
 .class-home {
   width: 375px;
-  height: 742px;
+
+  margin: 0px auto 0;
+  padding-top: 42px;
+}
+.class-home-container {
+  width: 335px;
+  height: 719px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/home");
-  margin: auto;
-}
-.class-home-container {
-  width: 375px;
-  padding: 182px 16px 0px;
+  background-image: url("/img/Home\ mobile.png");
+
   margin: auto;
 }
 
 .class-home-container-top {
+  padding-top: 82px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  gap: 28px;
 }
 .class-home-title-img {
-}
-.class-home-title {
-  -webkit-text-stroke: 1px #ffffff;
-  color: #482600;
+  width: 335px;
+  height: 312px;
 }
 
-.class-home-text {
-}
 .class-home-link {
   transition: all 0.3s ease-in-out;
+}
+.class-home-img {
+  width: 243px;
+  height: 70px;
 }
 
 .class-home-link:hover {
@@ -296,192 +301,438 @@ a {
 @media screen and (min-width: 1200px) {
   .class-home {
     width: 1440px;
-    height: 784px;
-    background-image: url("/img/home");
+
+    margin: 0px auto 0;
+    padding-top: 0px;
   }
   .class-home-container {
     width: 1440px;
-    padding: 204px 0px 0px;
+    height: 823px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/Home.png");
+
+    margin: auto;
   }
+
   .class-home-container-top {
+    padding: 148px 926px 0 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 52px;
   }
   .class-home-title-img {
-  }
-  .class-home-title {
-  }
-
-  .class-home-text {
+    width: 434px;
+    height: 405px;
   }
 }
 .class-about {
   margin: auto;
   width: 375px;
-  height: px;
+  padding: 119px 20px 0;
+}
+.class-about-container {
+  width: 335px;
+  height: 660px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img");
-}
-.class-about-container {
-  width: 375px;
-  padding: 64px 16px 0px;
+  background-image: url("/img/About\ the\ game.png");
+
   margin: auto;
 }
 .class-about-title {
-  -webkit-text-stroke: 1px#FFFFFF99;
-  color: #297d17;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 38px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+
+  background: linear-gradient(351.46deg, #fd7815 6.95%, #edd242 68.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.class-about-title-two {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px 0 333px;
 }
 .class-about-text {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 
 .class-about-text-bold {
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 
 @media screen and (min-width: 1200px) {
   .class-about {
+    margin: auto;
     width: 1440px;
-    height: px;
-    background-image: url("/img");
+    padding: 150px 80px 0;
   }
   .class-about-container {
-    width: 1440px;
-    padding: ;
+    width: 1280px;
+    height: 293px;
+
+    background-image: url("/img/About\ Section.png");
+
+    margin: auto;
+  }
+
+  .class-about-title-two {
+    padding: 38px 0 16px;
+  }
+  .class-about-text-left {
+    text-align: left;
+    width: 630px;
   }
 }
 .class-why {
   margin: auto;
   width: 375px;
-  height: px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img");
+  padding: 80px 0 0;
 }
 
 .class-why-container {
   width: 375px;
+  height: 448px;
   margin: auto;
-  padding: 0;
+  padding: 0 20px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/How\ to\ play.png");
 }
 .class-why-list {
-  padding-top: px;
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
-  gap: px;
+  gap: 20px;
 }
 .class-why-item {
   display: flex;
-  gap: px;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
 }
 .class-why-img {
+  width: 24px;
 }
 .class-why-text-bold {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  font-family: "Baloo 2", sans-serif;
 }
 .class-why-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 @media screen and (min-width: 1200px) {
   .class-why {
+    margin: auto;
     width: 1440px;
-    height: px;
-    background-image: url("/img");
+    padding: 150px 0 0;
   }
+
   .class-why-container {
-    width: 1440px;
-    padding: ;
+    width: 1280px;
+    height: 324px;
+    margin: auto;
+    padding: 0 82px;
+
+    background-image: url("/img/How\ to\ play\ \(1\).png");
+  }
+  .class-why-list {
+    padding-top: 101px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .class-why-item {
+    width: 305px;
+  }
+  .class-why-img {
+    width: 24px;
+  }
+  .class-why-text-bold {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    font-family: "Baloo 2", sans-serif;
+  }
+  .class-why-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
   }
 }
 
 .class-uniqueness {
   margin: auto;
   width: 375px;
-  height: px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img");
+  padding: 80px 0 0;
 }
 .class-uniqueness-container {
   margin: auto;
-  width: 375px;
-  padding: 64px 16px 0;
+  width: 335px;
+  height: 1293px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/Tools\ section.png");
+}
+.class-uniqueness-text {
+  font-family: "Baloo 2", sans-serif;
+  padding: 357px 0 16px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.class-uniqueness-text-two {
+  padding-left: 69px;
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 .class-uniqueness-list {
-  padding-top: px;
+  padding-top: 14px;
   display: flex;
   flex-direction: column;
-  gap: px;
+  gap: 20px;
+  align-items: center;
 }
 .class-uniqueness-item {
 }
 .class-uniqueness-img {
 }
 .class-uniqueness-text-bold {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 4px;
 }
-.class-uniqueness-text {
+.class-uniqueness-text-three {
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 1200px) {
   .class-uniqueness {
+    margin: auto;
     width: 1440px;
-    height: px;
-    background-image: url("/img");
+    padding: 150px 80 0;
   }
   .class-uniqueness-container {
     margin: auto;
-    width: 1440px;
-    padding: ;
+    width: 1280px;
+    height: 598px;
+
+    background-image: url("/img/Tools\ section\ \(1\).png");
+  }
+  .class-uniqueness-text {
+    font-family: "Baloo 2", sans-serif;
+    padding: 38px 0 28px 650px;
+    text-align: left;
+  }
+  .class-uniqueness-text-two {
+    padding-left: 650px;
+  }
+  .class-uniqueness-list {
+    padding-left: 650px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .class-uniqueness-text-three {
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 28px;
+    padding-left: 650px;
+    padding-right: 108px;
   }
 }
 .class-how {
   margin: auto;
   width: 375px;
-  height: px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img");
+  padding: 80px 0 0;
 }
 .class-how-container {
   margin: auto;
-  width: 375px;
-  padding: 64px 16px 0;
-}
-.class-how-list {
-  padding-top: px;
-  display: flex;
-  flex-direction: column;
-  gap: px;
-}
+  width: 355px;
 
-.class-how-item {
+  height: 985px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/Level\ progression.png");
 }
-
-.class-how-img {
-  margin: auto;
-}
-
 .class-how-text-bold {
+  font-family: "Baloo 2", sans-serif;
+
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 391px 0 20px;
 }
 
 .class-how-text {
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.class-how-list {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.class-how-item {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 335px;
+  height: 52px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/Container\ \(1\).png");
 }
 
 @media screen and (min-width: 1200px) {
   .class-how {
+    margin: auto;
     width: 1440px;
-    height: px;
-    background-image: url("/img");
+    padding: 150px 0 0;
   }
   .class-how-container {
     margin: auto;
-    width: 1440px;
-    padding: ;
+    width: 1280px;
+
+    height: 633px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/Leven\ progression.png");
+  }
+  .class-how-text-bold {
+    padding: 38px 217px 80px;
+  }
+
+  .class-how-list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .class-how-item {
+    width: 414px;
+    height: 44px;
+
+    padding: 10px;
+
+    background-image: url("/img/Container\ \(2\).png");
   }
 }
 
@@ -571,7 +822,7 @@ a {
   }
   .class-reviews-container {
     margin: auto;
-    padding: ;
+    padding:;
     width: 1440px;
   }
 }
@@ -620,7 +871,9 @@ a {
 .class-faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.4s ease;
+  transition:
+    max-height 0.4s ease,
+    opacity 0.4s ease;
   opacity: 0;
 }
 
@@ -640,7 +893,7 @@ a {
     background-image: url("/img");
   }
   .class-faq-container {
-    padding: ;
+    padding:;
     width: 1440px;
     margin: auto;
   }
@@ -767,92 +1020,156 @@ a {
 }
 
 .class-policy-terms-container {
-  padding: 124px 16px 40px;
+  padding: 126px 20px 80px;
   width: 375px;
   margin: auto;
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 
 .class-policy-terms-container h1 {
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 38px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(351.46deg, #fd7815 6.95%, #edd242 68.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 32px;
 }
 .class-policy-terms-container h2 {
-  margin-bottom: ;
+  margin: top 20px;
+  padding-top: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 .class-policy-terms-container ul {
   list-style-type: disc;
   margin-left: 20px;
-  margin-bottom: ;
 }
-.class-policy-terms-container p {
-  margin-bottom: ;
-}
+
 .class-email-link {
   color: inherit;
   text-decoration: none;
+  font-family: Nunito;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 @media screen and (min-width: 1200px) {
   .class-policy-terms-container {
-    padding: 186px 80px 60px;
+    padding: 102px 180px 100px;
     width: 1440px;
   }
   .class-policy-terms-container h1 {
-  }
-  .class-policy-terms-container h2 {
-  }
-  .class-policy-terms-container p {
+    font-family: Baloo 2;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
   }
 }
 
 .class-footer-container {
   width: 375px;
-  padding: ;
+  padding: 33px 20px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 25px;
+  align-items: start;
+  gap: 18px;
 }
 
 .class-footer-wrapper {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
+  flex-direction: column;
+
+  gap: 16px;
 }
 
 .class-footer-text {
   text-decoration: none;
   color: inherit;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
 }
 
 .class-footer-copyright {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 
 @media screen and (min-width: 1200px) {
   .class-footer-container {
     width: 1440px;
-    padding: 48px 199px;
-    display: flex;
-    flex-direction: ;
-    justify-content: end;
+    padding: 46px 180px;
+
+    flex-direction: column;
+
     align-items: center;
-    gap: 160px;
+    gap: 50px;
   }
 
   .class-footer-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: end;
-    gap: 4px;
+    align-items: center;
+    gap: 285px;
   }
 
   .class-footer-text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
   }
 
   .class-footer-copyright {
+    font-family: Nunito;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
   }
 }
 
